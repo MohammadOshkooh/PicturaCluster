@@ -38,13 +38,6 @@ This project systematically processes images through **feature extraction**, **d
 ---
 
 ### 3. **Clustering**  
-**Algorithms Implemented:**  
-| Algorithm          | Key Strengths                          | Hyperparameters             |  
-|---------------------|---------------------------------------|-----------------------------|  
-| **K-Means**         | Best Silhouette Score (`0.3574`)      | `k=4` (Elbow Method)        |  
-| **DBSCAN**          | Noise detection (40.86% noise ratio)  | `eps=0.5`, `min_samples=3`  |  
-| **Agglomerative**   | Highest F1-Score (`0.5951`)           | `n_clusters=6` (Dendrogram) |  
-| **MeanShift**       | Automatic cluster detection           | `bandwidth=1.22`            |  
 
 **Visualization**:  
 - 2D PCA plots for cluster separation.  
@@ -53,17 +46,7 @@ This project systematically processes images through **feature extraction**, **d
 ---
 
 ### 4. **Evaluation**  
-**Metrics:**  
-| Algorithm          | Precision | Recall  | F1-Score | Silhouette |  
-|---------------------|-----------|---------|----------|------------|  
-| K-Means             | 0.4398    | 0.6086  | 0.5012   | **0.3574** |  
-| DBSCAN              | 0.2925    | 0.4636  | 0.3334   | -          |  
-| Agglomerative       | **0.5688**| **0.6475** | **0.5951** | 0.3204 |  
-| MeanShift           | 0.5116    | 0.5525  | 0.4926   | 0.2146     |  
 
-**Key Findings**:  
-- **Agglomerative Clustering**: Best balance between precision and recall.  
-- **K-Means**: Clear cluster boundaries (highest Silhouette Score).  
 
 ---
 
