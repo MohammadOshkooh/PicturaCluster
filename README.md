@@ -1,6 +1,4 @@
-# Image Feature Extraction, Clustering, and Analysis  
-**Complete All Phases - Project Finalized**  
-
+#### A University Project for Image Feature Extraction, Clustering, and Analysis
 ---
 
 ## 📌 Overview  
